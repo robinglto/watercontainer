@@ -12,7 +12,8 @@ div{
     height: 250px;
     background: #2196f3;
     border-radius: 50%;
-    box-shadow: inset 0 0 50px black;
+    border-color: white;
+    box-shadow: inset 0 0 50px white;
     overflow: hidden;
 }
 
@@ -21,8 +22,10 @@ div{
     position: absolute;
     width: 200px;
     height: 200px;
+    border-color: white;
     border-radius: 50%;
     animation: animate 12s linear infinite;
+    
 }
 
 
@@ -38,8 +41,9 @@ div{
     left: -50%;
     width: 200%;
     height: 200%;
+    border-color: white;
     border-radius: 40%;
-    background: #121;
+    background: white;
     animation: animate2 5s linear infinite;
 }
 
